@@ -84,7 +84,7 @@ public class MainManager : MonoBehaviour
 	{
 		m_GameOver = true;
 		GameOverText.SetActive(true);
-		StartMenu.instance.SaveTopScore();
+		StartMenu.SaveTopScore();
 	}
 
 	public void ReturnToMainMenu(){
